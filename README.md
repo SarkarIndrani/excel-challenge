@@ -13,4 +13,9 @@ Using the Excel workbook in my .zip file, modify and analyze the sample-project 
   * Create a mew column called `Average donationo` that uses a formula to find how much each project backer paid on average.
   * Create two new columns, one called `Parent Category` and another called `Sub-Category`, that use formulas to split the `Category and Sub-Category` column into the two new, separate columns:
 
+    ![](./Images/pivot.png)
+
+  * Create a new sheet with a pivot table that analyses my initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per category.
+
+ * Create a stacked-column pivot chart that can be filtered by country based on the table I created.
    
