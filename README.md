@@ -24,8 +24,33 @@ Using the Excel workbook in my .zip file, modify and analyze the sample-project 
 * Create a new sheet with a pivot table that analyzes your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per sub-category.
 * Create a stacked-column pivot chart that can be filtered by country and parent category based on the table that you created.
 * The dates in the `deadline` and `launched_at` columns use Unix timestams.
-   * Create a new column named `Date Created Conversion` that will use ![this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained in `launched_at` into Excel's date format.
-   * Create a new column named `Date Ended Conversion` that will use ![this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained in 'deadline` into Excel's date format.
+   * Create a new column named `Date Created Conversion` that will use [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained in `launched_at` into Excel's date format.
+   * Create a new column named `Date Ended Conversion` that will use [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained in 'deadline` into Excel's date format.
+
+     ![](./Images/LaunchDateOutcomes.png)
+
+   * Create a mew sheet with a pivot table that has a column of `outcome`, rows of `Date Created Conversion`, values based on the count of `outcome`, and filters based on `percent category` and `Years`.
+   * Now, create a pivot-chart line graph that visualizes this new table.
+
+## Analysis
+* Given the provided data, what are three conclusions that we can draw about crowdfunding campaigns?
+
+  * Most of the crowdfunding are successful.
+  * Crowdfunding for theater projects, specially plays, is the most successful and had the most amount of successful campaigns; however, if you do the ratio of total campaigns and how many failed, it also has the highest percentage of failures.
+  * About 43% failed to meet their goal amount for crowdfunding, and about 57% met or exceeded their goal of crowdfundind.
+  * Those who had a goal of raising $50,000 or more had the lowest percent of being successful.
+  
+
+* What are some limitations of this dataset?
+   * Some limitations on this data include the reason why some crowdfunding campaigns cancelled or failed. There also could be more specific categories that the sub-categories listed. For instance, food trucks is a sub-category. But what types of food trucks were successful vs.failed? Does this play inot the failure to raise money?
+
+* What are some other possible tables and/or graphs that we could create, and what additional value would they provide?
+
+  * Create a pivot table to reflect by category, and did the time they launched to the deadline, play a factor in if crowdfunding was more successful or not? Did projects with a short deadline fail more?
+  * What was the average time from launch to deadline by category? This could be useful for people looking to crowdfund to help manage expectations.
+  * What was the average financial goal, per category and sub-category, to give perspective to those thinking about starting a crowdfunding campaign?
+ 
+## Crowdfunding Goal Analysis:
      
      
 
