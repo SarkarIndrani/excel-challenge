@@ -24,8 +24,8 @@ Using the Excel workbook in my .zip file, modify and analyze the sample-project 
 * Create a new sheet with a pivot table that analyzes your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per sub-category.
 * Create a stacked-column pivot chart that can be filtered by country and parent category based on the table that you created.
 * The dates in the `deadline` and `launched_at` columns use Unix timestams.
-   * Create a new column named `Date Created Conversion` that will use [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained in `launched_at` into Excel's date format.
-   * Create a new column named `Date Ended Conversion` that will use [this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained in 'deadline` into Excel's date format.
+   * Create a new column named `Date Created Conversion` that will use ![this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained in `launched_at` into Excel's date format.
+   * Create a new column named `Date Ended Conversion` that will use ![this formula](https://www.extendoffice.com/documents/excel/2473-excel-timestamp-to-date.html) to convert the data contained in 'deadline` into Excel's date format.
      
      
 
