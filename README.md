@@ -31,24 +31,6 @@ Using the Excel workbook in my .zip file, modify and analyze the sample-project 
 
    * Create a mew sheet with a pivot table that has a column of `outcome`, rows of `Date Created Conversion`, values based on the count of `outcome`, and filters based on `percent category` and `Years`.
    * Now, create a pivot-chart line graph that visualizes this new table.
-
-## Analysis
-* Given the provided data, what are three conclusions that we can draw about crowdfunding campaigns?
-
-  * Most of the crowdfunding are successful.
-  * Crowdfunding for theater projects, specially plays, is the most successful and had the most amount of successful campaigns; however, if you do the ratio of total campaigns and how many failed, it also has the highest percentage of failures.
-  * About 43% failed to meet their goal amount for crowdfunding, and about 57% met or exceeded their goal of crowdfundind.
-  * Those who had a goal of raising $50,000 or more had the lowest percent of being successful.
-  
-
-* What are some limitations of this dataset?
-   * Some limitations on this data include the reason why some crowdfunding campaigns cancelled or failed. There also could be more specific categories that the sub-categories listed. For instance, food trucks is a sub-category. But what types of food trucks were successful vs.failed? Does this play inot the failure to raise money?
-
-* What are some other possible tables and/or graphs that we could create, and what additional value would they provide?
-
-  * Create a pivot table to reflect by category, and did the time they launched to the deadline, play a factor in if crowdfunding was more successful or not? Did projects with a short deadline fail more?
-  * What was the average time from launch to deadline by category? This could be useful for people looking to crowdfund to help manage expectations.
-  * What was the average financial goal, per category and sub-category, to give perspective to those thinking about starting a crowdfunding campaign?
  
 ## Crowdfunding Goal Analysis:
 
@@ -74,6 +56,32 @@ Using the Excel workbook in my .zip file, modify and analyze the sample-project 
    * 40000 to 44999
    * 45000 to 49999
    * Greater than or equal to 50000
+
+     ![](./Images/Bonus.png)
+
+* Using the `COUNTIFS()` formula, count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populate the `Number Successful`, `Number Failed`, and `Number Canceled` columns with these data points.
+* Add up each of the values in the `Number Successful`, `Number Failed`, and `Number Canceled` columns to populate the `Total Projects` column. Then, using a mathematical formula, find the percentage of projects that were successful, failed, or canceled per goal range.
+* Create a line chart that graphs the relationship between a goal amount and its chances of success, failure, or cancellation.
+
+## Statistical Analysis
+Most people would use the number of campaign backers to assess the success of a crowdfunding campaign. Creating a summary statistics table is one of the most efficient ways that data scientists can characterize quantitative metrics, such as the number of campaign backers.
+For gaining an in-depth understanding of campaign backers, evaluate the number of backers of successful and unsuccessful campaigns by creating your own summary statistics table.
+  * Create a new worksheet in your workbook, and create one column for the number of backers of successful campaigns and one column for unsuccessful campaigns.
+
+   ![](./Images/Bonus2.png)
+
+* Use Excel to evaluate the following values for successful campaigns, and then do the same for unsuccessful campaigns:
+    * The mean number of backers
+    * The median number of backers
+    * The minimum number of backers
+    * The maximum number of backers
+    * The variance of the number of backers
+    * The standard deviation of the number of backers
+* Use your data to determine whether the mean or the median better summarizes the data.
+* Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
+   
+
+
      
 
      
